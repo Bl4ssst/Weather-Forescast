@@ -1,4 +1,4 @@
-const apiKey = "";
+const apiKey = "e01d6c330c3bade437e1eac1fd9d2106";
 const apiCountryURL = "https://countryflagsapi.com/png/";
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
@@ -47,8 +47,6 @@ const showErrorMessage = () => {
 const hideInformation = () => {
   errorMessageContainer.classList.add("hide");
   weatherContainer.classList.add("hide");
-
-  suggestionContainer.classList.add("hide");
 };
 
 const showWeatherData = async (city) => {
